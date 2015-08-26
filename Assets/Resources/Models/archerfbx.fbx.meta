@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 567260a8c0cd2eb4b9c68f97c98ae445
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: archer:joint2
+    100002: archer:joint3
+    100004: //RootNode
+    100006: ArcherSkin
+    100008: Body_Root
+    100010: Bow
+    100012: Bow_Root
+    100014: BowBottom1
+    100016: BowBottom2
+    100018: BowBottom3
+    100020: BowBottom3 1
+    100022: BowBottom4
+    100024: BowBottom4 1
+    100026: BowBottomEnd
+    100028: BowBottomEnd 1
+    100030: BowTop1
+    100032: BowTop2
+    100034: BowTop3
+    100036: BowTop3 1
+    100038: BowTop4
+    100040: BowTop4 1
+    100042: BowTopEnd
+    100044: BowTopEnd 1
+    100046: Chest
+    100048: CTRL_BowBot
+    100050: CTRL_BowPos
+    100052: CTRL_BowTop
+    100054: CTRL_Hip
+    100056: CTRL_R_Hand
+    100058: Head
+    100060: ikHandle1
+    100062: ikHandle2
+    100064: ikHandle6
+    100066: ikHandle7
+    100068: ikHandle8
+    100070: joint22
+    100072: joint23
+    100074: L_Ankle
+    100076: L_CTRLAnkle
+    100078: L_CTRLHeel
+    100080: L_CTRLToe
+    100082: L_Elbow
+    100084: L_Hand
+    100086: L_Knee
+    100088: L_Knee_Pointer
+    100090: L_LegRoot
+    100092: L_Shoulder
+    100094: L_Toe
+    100096: L_Wrist
+    100098: Neck
+    100100: R_Ankle
+    100102: R_CTRLAnkle
+    100104: R_CTRLHeel
+    100106: R_CTRLToe
+    100108: R_Elbow
+    100110: R_Foot
+    100112: R_Hand
+    100114: R_Knee
+    100116: R_Knee_Pointer
+    100118: R_LegRoot
+    100120: R_Shoulder
+    100122: R_Wrist
+    100124: ShoulderRoot
+    100126: Stomach
+    100128: transform4
+    400000: archer:joint2
+    400002: archer:joint3
+    400004: //RootNode
+    400006: ArcherSkin
+    400008: Body_Root
+    400010: Bow
+    400012: Bow_Root
+    400014: BowBottom1
+    400016: BowBottom2
+    400018: BowBottom3
+    400020: BowBottom3 1
+    400022: BowBottom4
+    400024: BowBottom4 1
+    400026: BowBottomEnd
+    400028: BowBottomEnd 1
+    400030: BowTop1
+    400032: BowTop2
+    400034: BowTop3
+    400036: BowTop3 1
+    400038: BowTop4
+    400040: BowTop4 1
+    400042: BowTopEnd
+    400044: BowTopEnd 1
+    400046: Chest
+    400048: CTRL_BowBot
+    400050: CTRL_BowPos
+    400052: CTRL_BowTop
+    400054: CTRL_Hip
+    400056: CTRL_R_Hand
+    400058: Head
+    400060: ikHandle1
+    400062: ikHandle2
+    400064: ikHandle6
+    400066: ikHandle7
+    400068: ikHandle8
+    400070: joint22
+    400072: joint23
+    400074: L_Ankle
+    400076: L_CTRLAnkle
+    400078: L_CTRLHeel
+    400080: L_CTRLToe
+    400082: L_Elbow
+    400084: L_Hand
+    400086: L_Knee
+    400088: L_Knee_Pointer
+    400090: L_LegRoot
+    400092: L_Shoulder
+    400094: L_Toe
+    400096: L_Wrist
+    400098: Neck
+    400100: R_Ankle
+    400102: R_CTRLAnkle
+    400104: R_CTRLHeel
+    400106: R_CTRLToe
+    400108: R_Elbow
+    400110: R_Foot
+    400112: R_Hand
+    400114: R_Knee
+    400116: R_Knee_Pointer
+    400118: R_LegRoot
+    400120: R_Shoulder
+    400122: R_Wrist
+    400124: ShoulderRoot
+    400126: Stomach
+    400128: transform4
+    4300000: ArcherSkin
+    4300002: Bow
+    7400000: WalkCycle
+    9500000: //RootNode
+    13700000: ArcherSkin
+    13700002: Bow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkCycle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArcherSkin
+        weight: 1
+      - path: ArcherSkin/Body_Root
+        weight: 1
+      - path: ArcherSkin/Body_Root/L_LegRoot
+        weight: 1
+      - path: ArcherSkin/Body_Root/L_LegRoot/L_Knee
+        weight: 1
+      - path: ArcherSkin/Body_Root/L_LegRoot/L_Knee/L_Ankle
+        weight: 1
+      - path: ArcherSkin/Body_Root/L_LegRoot/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: ArcherSkin/Body_Root/R_LegRoot
+        weight: 1
+      - path: ArcherSkin/Body_Root/R_LegRoot/R_Knee
+        weight: 1
+      - path: ArcherSkin/Body_Root/R_LegRoot/R_Knee/R_Ankle
+        weight: 1
+      - path: ArcherSkin/Body_Root/R_LegRoot/R_Knee/R_Ankle/R_Foot
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/archer:joint2
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/archer:joint3
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/L_Shoulder
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/L_Shoulder/L_Elbow
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/L_Shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/L_Shoulder/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/Neck
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/Neck/Head
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/R_Shoulder
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/R_Shoulder/R_Elbow
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/R_Shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/Chest/ShoulderRoot/R_Shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/joint22
+        weight: 1
+      - path: ArcherSkin/Body_Root/Stomach/joint23
+        weight: 1
+      - path: ArcherSkin/Bow
+        weight: 1
+      - path: ArcherSkin/Bow/transform4
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowBottom1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowBottom1/BowBottom2
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowBottom1/BowBottom2/BowBottom3
+          1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowBottom1/BowBottom2/BowBottom3
+          1/BowBottom4 1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowBottom1/BowBottom2/BowBottom3
+          1/BowBottom4 1/BowBottomEnd 1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowTop1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowTop1/BowTop2
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowTop1/BowTop2/BowTop3 1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowTop1/BowTop2/BowTop3 1/BowTop4
+          1
+        weight: 1
+      - path: ArcherSkin/Bow/transform4/Bow_Root/BowTop1/BowTop2/BowTop3 1/BowTop4
+          1/BowTopEnd 1
+        weight: 1
+      - path: CTRL_BowBot
+        weight: 1
+      - path: CTRL_BowBot/BowBottom3
+        weight: 1
+      - path: CTRL_BowBot/BowBottom3/BowBottom4
+        weight: 1
+      - path: CTRL_BowBot/BowBottom3/BowBottom4/BowBottomEnd
+        weight: 1
+      - path: CTRL_BowPos
+        weight: 1
+      - path: CTRL_BowTop
+        weight: 1
+      - path: CTRL_BowTop/BowTop3
+        weight: 1
+      - path: CTRL_BowTop/BowTop3/BowTop4
+        weight: 1
+      - path: CTRL_BowTop/BowTop3/BowTop4/BowTopEnd
+        weight: 1
+      - path: CTRL_Hip
+        weight: 1
+      - path: CTRL_R_Hand
+        weight: 1
+      - path: ikHandle8
+        weight: 1
+      - path: L_CTRLHeel
+        weight: 1
+      - path: L_CTRLHeel/L_CTRLToe
+        weight: 1
+      - path: L_CTRLHeel/L_CTRLToe/ikHandle2
+        weight: 1
+      - path: L_CTRLHeel/L_CTRLToe/L_CTRLAnkle
+        weight: 1
+      - path: L_CTRLHeel/L_CTRLToe/L_CTRLAnkle/ikHandle1
+        weight: 1
+      - path: L_Knee_Pointer
+        weight: 1
+      - path: R_CTRLHeel
+        weight: 1
+      - path: R_CTRLHeel/R_CTRLToe
+        weight: 1
+      - path: R_CTRLHeel/R_CTRLToe/ikHandle7
+        weight: 1
+      - path: R_CTRLHeel/R_CTRLToe/R_CTRLAnkle
+        weight: 1
+      - path: R_CTRLHeel/R_CTRLToe/R_CTRLAnkle/ikHandle6
+        weight: 1
+      - path: R_Knee_Pointer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
